@@ -1,115 +1,112 @@
-# Z1 Advent of code ⭐️
+<!-- Entries between SOLUTIONS and RESULTS tags are auto-generated -->
 
-This is an starting kit for [Advent of code](https://adventofcode.com) (AoC). It's created to provide you with the code structure and functionality so you can focus on designing your solutions for the puzzles.
+[![AoC](https://badgen.net/badge/AoC/2023/blue)](https://adventofcode.com/2023)
+[![Node](https://badgen.net/badge/Node/v16.13.0+/blue)](https://nodejs.org/en/download/)
+![Language](https://badgen.net/badge/Language/JavaScript/blue)
+[![Template](https://badgen.net/badge/Template/aocrunner/blue)](https://github.com/caderek/aocrunner)
 
-The following features are included:
+# 🎄 Advent of Code 2023 🎄
 
-- Providing a javascript template for daily solutions
-- Allowing you to work on your solutions with dev mode
-- Fetching your input automatically
-- Submitting your solution from the terminal
-- Creating and updating automatically a nice overwiew README with your progress
+## Solutions
 
-## How to start
+<!--SOLUTIONS-->
 
-### Install dependencies:
+[![Day](https://badgen.net/badge/01/%E2%98%85%E2%98%85/green)](puzzles/day-01)
+[![Day](https://badgen.net/badge/02/%E2%98%85%E2%98%85/green)](puzzles/day-02)
+![Day](https://badgen.net/badge/03/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/04/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/05/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/06/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/07/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/08/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/09/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/10/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/11/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/12/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/13/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/14/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/15/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/16/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/17/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/18/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/19/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/20/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/21/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/22/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/23/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/24/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/25/%E2%98%86%E2%98%86/gray)
 
-```bash
-pnpm install
+<!--/SOLUTIONS-->
+
+_Click a badge to go to the specific day._
+
+## Leaderboard 👀
+| Participant | Stars |
+| ------------- | ------------- |
+| Francisco Naranjo | 5 ⭐️⭐️⭐️⭐️⭐️ |
+| María Simó | 4 ⭐️⭐️⭐️⭐️ |
+| Jose Antonio Castro Castro (Toño) | 4 ⭐️⭐️⭐️⭐️ |
+| Mariluz Aniceto | 4 ⭐️⭐️⭐️⭐️ |
+| Nicolás Sanchez | 2 ⭐️⭐️ |
+| Mouly Taha | 1 ⭐️ |
+| AnaMMenacho | - |
+| Mario Ballestero | - |
+| Antonio Jesús Palma López | - |
+| Jimena A. | - |
+| Emilio A. Sánchez López | - |
+| Francisco Javier Portillo Rodriguez | - |
+| null | - |
+| Marta García | - |
+| Magui Valero | - |
+
+---
+
+## Instructions
+[🔗 Template instructions](https://github.com/z1digitalstudio/advent-of-code-template)
+
+**Installation**
+
+```
+pnpm install 
 ```
 
-### Add .env file with variables:
+**Create day boilerplate**
 
-```bash
-AOC_SESSION_KEY=
-YEAR=
+```
+pnpm start <day-number>
 ```
 
-To get your `AOC_SESSION_KEY`, go to [Advent of code](https://adventofcode.com), open your inspector console and get session cookie from the **_Application_** tab.
+Example:
 
-> Using `AOC_SESSION_KEY` is optional.
-> You can leave this empty and work "manually", by simply copying and pasting input and solutions between your IDE and the AoC web.
->
-> But you **will loose access to some features** like fetching input automatically, sending solutions, updating readme automatically with your progress.
-
-### (Optional) Update your README:
-
-```bash
-pnpm update:readme
 ```
-
-Init a fresh copy of a README that will overwrite this one and reflect your progress completing the puzzles. Don't worry, if you don't want to do that just yet, README will be automatically generated after you submit your first answer successfully.
-
-![README appearance](./images/screenshot-readme.png)
-
-### Generate files for your first puzzle
-
-```bash
-pnpm start <dayNum>
-```
-
-Example
-
-```bash
 pnpm start 1
 ```
 
-The `pnpm start <day>` command creates a folder at the `/puzzles` directory with a starting template to solving your puzzle.
+**Run dev mode**
 
-The `/puzzles` directory will be your main working directory, containing all your solutions.
-
-You can customize this template to your liking by editing files at `/templates/js` directory.
-
-### Work on your puzzle
-
-You can run dev mode in one terminal along with tests in other to work on your solution:
-
-```bash
-pnpm dev <dayNum>
+```
+pnpm dev <day-number>
 ```
 
-Example
+Example:
 
-```bash
+```
 pnpm dev 1
 ```
 
-Run test on changed files:
+**Run tests**
 
-```bash
+```
 pnpm test
 ```
 
-<img src="./images/screenshot.png" alt="work on your puzzle, screenshot of terminal" width="450px">
-
-### Submit your solution
-
-Once your ready, you can send your solution to Advent of code from the terminal:
-
-```bash
-pnpm submit <dayNum>
-```
-
-Example
-
-```bash
-pnpm submit 1
-```
-
-If your solution is correct, you will see a message in the terminal and this README will be updated automatically to show your progress ✨.
-
-## Join the leaderboard
-
-If you're a Z1 employee, you can [join](https://adventofcode.com/2022/leaderboard/private) Z1's private leaderboard:
+Example:
 
 ```
-3197226-79081dfb
+pnpm test
 ```
 
-Also register to the AoC internal event for a chance to redeem the stars you won for fantastic Z1 swag and become the ⭐️⭐️ **_Z1 Coder of the year_** ⭐️⭐️.
+---
 
-Join channel `#z1-initiative-advent-of-code`
-
-## Acknowledgements
-
-This template is _heavily_ inspired on a awesome AOC runner from [@caderek](https://github.com/caderek). Check it out [here](https://github.com/caderek/aocrunner).
+✨🎄🎁🎄🎅🎄🎁🎄✨

@@ -1,8 +1,69 @@
 {
   "year": 2023,
   "leaderboard": {
-    "lastUpdated": 0,
-    "state": []
+    "lastUpdated": 1701683117808,
+    "state": [
+      {
+        "stars": 5,
+        "name": "Francisco Naranjo"
+      },
+      {
+        "stars": 4,
+        "name": "María Simó"
+      },
+      {
+        "stars": 4,
+        "name": "Jose Antonio Castro Castro (Toño)"
+      },
+      {
+        "stars": 4,
+        "name": "Mariluz Aniceto"
+      },
+      {
+        "stars": 2,
+        "name": "Nicolás Sanchez"
+      },
+      {
+        "stars": 1,
+        "name": "Mouly Taha"
+      },
+      {
+        "stars": 0,
+        "name": "AnaMMenacho"
+      },
+      {
+        "stars": 0,
+        "name": "Mario Ballestero"
+      },
+      {
+        "stars": 0,
+        "name": "Antonio Jesús Palma López"
+      },
+      {
+        "stars": 0,
+        "name": "Jimena A."
+      },
+      {
+        "stars": 0,
+        "name": "Emilio A. Sánchez López"
+      },
+      {
+        "stars": 0,
+        "name": "Francisco Javier Portillo Rodriguez"
+      },
+      {
+        "stars": 0,
+        "name": null
+      },
+      {
+        "stars": 0,
+        "name": "Marta García"
+      },
+      {
+        "stars": 0,
+        "name": "Magui Valero"
+      }
+    ]
   },
   "blockedTime": {
     "start": 1701643214802,
@@ -25,16 +86,16 @@
     },
     {
       "part1": {
-        "solved": false,
-        "result": null,
+        "solved": true,
+        "result": 2810,
         "attempts": [],
         "time": null
       },
       "part2": {
-        "solved": false,
-        "result": null,
+        "solved": true,
         "attempts": [],
-        "time": null
+        "time": null,
+        "result": 69110
       }
     },
     {
